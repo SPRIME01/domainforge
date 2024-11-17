@@ -1,3 +1,6 @@
+activate venv = .venv\Scripts\activate  
+
+
 A typical workflow using the Lark parsing library in Python involves the following steps:
 1. Define the Grammar:
 Create a grammar file (e.g., mygrammar.lark) using Lark's EBNF-like syntax to define the structure of your language.
