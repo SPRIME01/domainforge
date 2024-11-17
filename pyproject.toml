@@ -1,0 +1,19 @@
+[project]
+name = "domainforge"
+version = "0.1.0"
+description = "DomainForge is a domain-specific language that bridges the gap between human understanding and software implementation. It combines behavior-driven development, domain modeling, and code generation into a unified, expressive language."
+authors = [
+    {name = "Samuel Prime", email = "sprime01@gmail.com"},
+]
+dependencies = ["lark>=1.2.2", "rich>=13.9.4", "typer>=0.13.0", "pytest>=8.3.3"]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[tool.pdm]
+distribution = true
